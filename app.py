@@ -25,7 +25,7 @@ st.divider()
 # ── LOAD DATA ────────────────────────────────
 @st.cache_data  # data ek baar load hoga, baar baar nahi
 def load_data():
-    train = pd.read_csv('train.csv')
+    train = pd.read_csv('train_small.csv')
     store = pd.read_csv('store.csv')
 
     # Cleaning
