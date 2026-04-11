@@ -49,7 +49,7 @@ df = load_data()
 st.success("Data loaded successfully!")
 
 # ── SIDEBAR ──────────────────────────────────
-st.sidebar.header("⚙️ Settings")
+st.sidebar.header("Settings")
 
 # Store selector
 store_list = sorted(df['Store'].unique())
@@ -176,15 +176,3 @@ with st.expander("View Raw Data"):
 
 
 # streamlit run app.py
-
-# git init
-
-
-# git add .
-
-# git commit -m "Sales Forecasting Dashboard - Prophet + Streamlit"
-
-# git remote add origin https://github.com/arungupta-95/sales-forecasting-dashboard.git
-
-# git branch -M main
-# git push -u origin main
